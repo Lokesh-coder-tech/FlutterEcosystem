@@ -1,0 +1,334 @@
+@font-face {
+  font-family: flutter;
+  src: url(./KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #FFFFFF;
+  font-family: flutter;
+  overflow-x: hidden;
+}
+
+section {
+  max-width: 2000px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  background: linear-gradient(#F4F7FB, #F4F7FB, #FAE3EC);
+  padding: 5rem 0rem;
+}
+main section.view1 .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding: 1rem 0rem;
+}
+main section.view1 .container .milton .media {
+  padding: 0rem 1rem;
+}
+main section.view1 .container .milton .media img {
+  width: 100%;
+}
+main section.view1 .container .milton .text {
+  width: 100%;
+  padding: 4rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: center;
+  justify-content: center;
+}
+main section.view1 .container .milton .text h1 {
+  font-size: 2.8rem;
+  text-align: center;
+}
+main section.view1 .container .minitext {
+  padding: 2rem 1rem;
+}
+main section.view1 .container .minitext h2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  text-align: center;
+}
+main section.view2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding: 4rem 1rem;
+}
+main section.view2 .features {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding: 0.5rem 0rem;
+}
+main section.view2 .features .community {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding: 0.5rem 1rem;
+}
+main section.view2 .features .community .line {
+  width: 98%;
+  background-color: rgba(152, 152, 152, 0.235);
+  height: 0.2rem;
+  margin-left: 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section.view2 .features .community .text {
+  padding: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+main section.view2 .features .community .text h3 {
+  font-size: 1.6rem;
+}
+main section.view2 .features .community .text p {
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+main section.view2 .features .community .media {
+  width: 100%;
+  padding: 5rem 1rem;
+}
+main section.view2 .features .community .media img {
+  width: 100%;
+}
+main section.view2 .features .events {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding: 0.5rem 1rem;
+}
+main section.view2 .features .events .line {
+  width: 98%;
+  background-color: rgba(152, 152, 152, 0.235);
+  height: 0.2rem;
+  margin-left: 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2.5rem;
+}
+main section.view2 .features .events .text {
+  padding: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+main section.view2 .features .events .text h3 {
+  font-size: 1.6rem;
+}
+main section.view2 .features .events .text p {
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+main section.view2 .features .events .media {
+  width: 100%;
+  padding: 5rem 1rem;
+}
+main section.view2 .features .events .media img {
+  width: 100%;
+}
+main section.view2 .features .packages {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding: 0.5rem 1rem;
+}
+main section.view2 .features .packages .line {
+  width: 98%;
+  background-color: rgba(152, 152, 152, 0.235);
+  height: 0.2rem;
+  margin-left: 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2.5rem;
+}
+main section.view2 .features .packages .text {
+  padding: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+main section.view2 .features .packages .text h3 {
+  font-size: 1.6rem;
+}
+main section.view2 .features .packages .text p {
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+main section.view2 .features .packages .media {
+  width: 100%;
+  padding: 4rem 1rem;
+}
+main section.view2 .features .packages .media img {
+  width: 100%;
+}
+main section.view3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding: 0.5rem 1rem;
+}
+main section.view3 .involved {
+  width: 100%;
+}
+main section.view3 .involved .top img {
+  width: 100%;
+}
+main section.view3 .involved .bottom {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+main section.view3 .involved .bottom h1 {
+  font-size: 3rem;
+  font-size: 500;
+}
+main section.view3 .involved .bottom h4 {
+  font-size: 1.2rem;
+  color: rgb(95, 95, 95);
+  font-weight: 500;
+}
+main section.view3 .involved .bottom p {
+  font-size: 1.1rem;
+  width: 92%;
+  opacity: 0.7;
+}
+main section.view3 .involved .bottom .culture {
+  padding: 0.5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.view3 .involved .bottom .culture button {
+  padding: 0.7rem;
+  width: 60%;
+  border: 0.1rem solid royalblue;
+  border-radius: 3rem;
+  color: royalblue;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #FFFFFF;
+}
+main section.view3 .involved .bottom .culture P {
+  margin-left: 1rem;
+  color: black;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+@media (min-width: 900px) {
+  main section.view1 {
+    flex-direction: row-reverse;
+  }
+  main section.view1 .container {
+    padding: 5rem 8rem;
+    margin-bottom: -10rem;
+  }
+  main section.view1 .container .milton {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  main section.view1 .container .milton .text, main section.view1 .container .milton .media {
+    width: 50%;
+  }
+  main section.view1 .container .milton .text h1 {
+    font-size: 4rem;
+  }
+  main section.view1 .container .minitext {
+    padding: 7rem 11rem;
+  }
+  main section.view2 {
+    flex-direction: row;
+  }
+  main section.view2 .features {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  main section.view2 .features .community, main section.view2 .features .events, main section.view2 .features .packages {
+    width: 27%;
+  }
+  main section.view2 .features .community {
+    margin-top: -0.5rem;
+  }
+  main section.view2 .features .events {
+    margin-top: 2rem;
+  }
+  main section.view2 .features .packages {
+    margin-top: 1.4rem;
+  }
+  main section.view3 {
+    flex-direction: row;
+  }
+  main section.view3 .involved {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  main section.view3 .involved .top, main section.view3 .involved .bottom {
+    width: 40%;
+  }
+  main section.view3 .involved .top {
+    margin-top: -6rem;
+  }
+  main section.view3 .involved .bottom {
+    margin-top: -4rem;
+  }
+  main section.view3 .involved .bottom h4 {
+    font-size: 1.5rem;
+  }
+  main section.view3 .involved .bottom h1 {
+    font-size: 3.5rem;
+  }
+  main section.view3 .involved .bottom p {
+    width: 87%;
+    font-size: 1.3rem;
+  }
+  main section.view3 .involved .bottom .culture {
+    display: flex;
+    flex-direction: row;
+  }
+  main section.view3 .involved .bottom .culture button {
+    width: 45%;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  main section.view3 .involved .bottom .culture p {
+    margin-top: 0.5rem;
+    color: black;
+  }
+}/*# sourceMappingURL=style.css.map */
