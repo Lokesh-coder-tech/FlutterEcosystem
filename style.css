@@ -760,9 +760,10 @@ footer .footertray .terms ul li {
     margin-left: 10rem;
   }
   main section.view7 .started {
-    height: 20rem;
+    height: 18rem;
     display: flex;
-    padding: 2rem 2rem 3rem 3rem;
+    padding: 1rem 2rem 3rem 3rem;
+    margin-left: -5rem;
   }
   main section.view7 .started .get {
     display: flex;
