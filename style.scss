@@ -13,6 +13,11 @@ html,body{
     background-color: #FFFFFF;
     font-family: flutter;
     overflow-x: hidden;
+  
+}
+html{
+    font-size: clamp(14px,1.5vw,18px);
+    
 }
 
 @mixin flex-column($gap: 0rem){
@@ -26,6 +31,7 @@ section{
 main{
     width: 100%;
     @include flex-column(0rem);
+    align-items: center;
 
     section.view1{
         width: 100%;
@@ -428,6 +434,99 @@ main{
         }
     }
 }
+ footer{
+        background-color: #F8F9FA;
+        width: 100%;
+        @include flex-column(0rem);
+        padding: 0.5rem 3.5rem;
+
+     .contentfooter{
+        width: 100%;
+        @include flex-column(2.5rem);
+        padding: 1.3rem;
+       .logo{
+        width: 100%;
+        padding: 1rem 0rem;
+             margin-left: -1rem;
+         a{
+             font-size: 1rem
+         }
+        }
+        .footerlinks{
+        @include flex-column(4rem);
+        ul{
+            @include flex-column(0.7rem);
+
+            li{
+                list-style: none;
+                font-size: 1.2rem;
+                font-weight: 500;
+                a{
+                 text-decoration: none;
+                 font-size: 1.1rem;
+                 color: black;
+                 opacity: 0.7;
+                 font-weight: 400;
+                }
+            }
+        }
+      }
+      }
+     .socialfooter{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+         padding-top: 8rem;
+
+          .icon{
+            display: flex;
+            gap: 1rem;
+
+            a{
+                font-size: 1.5rem;
+                text-decoration: none;
+                color: rgba(0, 0, 0, 0.717);
+            }
+          }
+      }
+     .line{
+        width: 98%;
+        background-color: rgba(152, 152, 152, 0.265);
+        height: 0.2rem;
+        margin-left: 0.1rem;
+        margin-top: 2.7rem;
+        margin-bottom: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+         }
+     .footertray{
+        width: 100%;
+        @include flex-column(2.5rem);
+
+        .except{
+            text-align: center;
+            font-size: 1rem;
+            opacity: 0.8;
+            line-height:1.7rem ;
+        }
+        .terms{
+            margin-top: -1.3rem;
+            padding-bottom: 6.3rem;
+            ul{
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+             li{
+                list-style: none;
+                font-size: 1rem;
+                 opacity: 0.8;
+             }
+            }
+        }
+     }
+    }
 
 @media (min-width: 900px){
     main{
@@ -701,4 +800,68 @@ main{
 
         }
     }
+     footer{
+            display: flex;
+          
+            .contentfooter{
+                display: flex;
+                flex-direction: row;
+                 .logo{
+                padding-top: 2rem;
+                }
+
+                .footerlinks{
+                    padding-top: 2rem;
+                    margin-left: -40rem;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 8rem;
+
+                    ul{
+                    li{
+                        font-size:1rem ;
+                        a{
+                        font-size:0.9rem ;
+                        font-weight: 400;
+                        }
+                    }
+                    }
+                }
+            }
+            .socialfooter{
+                margin-left: -65rem;
+                margin-top: -3rem;
+                .icon{
+                  a{
+                    font-size:1.1rem ;
+                  }
+                }
+            }
+            .line{
+                color: rgba(128, 128, 128, 0.094);
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                height: 0.01rem;
+                width: 99%;
+            }
+            .footertray{
+                display: flex;
+                flex-direction: row;
+
+                .except{
+                    width: 75%;
+                    font-size: 0.8rem;
+                    text-align: left;
+                }
+                .terms{
+                    margin-top: 0.2rem;
+                    ul{
+                        margin-right: -23rem;
+                        li{
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
 }

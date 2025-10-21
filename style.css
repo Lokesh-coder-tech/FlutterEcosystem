@@ -16,6 +16,10 @@ html, body {
   overflow-x: hidden;
 }
 
+html {
+  font-size: clamp(14px, 1.5vw, 18px);
+}
+
 section {
   max-width: 2000px;
 }
@@ -25,6 +29,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 0rem;
+  align-items: center;
 }
 main section.view1 {
   width: 100%;
@@ -455,6 +460,104 @@ main section.view7 .started .culture p {
   font-size: 1rem;
 }
 
+footer {
+  background-color: #F8F9FA;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding: 0.5rem 3.5rem;
+}
+footer .contentfooter {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 1.3rem;
+}
+footer .contentfooter .logo {
+  width: 100%;
+  padding: 1rem 0rem;
+  margin-left: -1rem;
+}
+footer .contentfooter .logo a {
+  font-size: 1rem;
+}
+footer .contentfooter .footerlinks {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+footer .contentfooter .footerlinks ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+footer .contentfooter .footerlinks ul li {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+footer .contentfooter .footerlinks ul li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: black;
+  opacity: 0.7;
+  font-weight: 400;
+}
+footer .socialfooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8rem;
+}
+footer .socialfooter .icon {
+  display: flex;
+  gap: 1rem;
+}
+footer .socialfooter .icon a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.717);
+}
+footer .line {
+  width: 98%;
+  background-color: rgba(152, 152, 152, 0.265);
+  height: 0.2rem;
+  margin-left: 0.1rem;
+  margin-top: 2.7rem;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footertray {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+footer .footertray .except {
+  text-align: center;
+  font-size: 1rem;
+  opacity: 0.8;
+  line-height: 1.7rem;
+}
+footer .footertray .terms {
+  margin-top: -1.3rem;
+  padding-bottom: 6.3rem;
+}
+footer .footertray .terms ul {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+footer .footertray .terms ul li {
+  list-style: none;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
 @media (min-width: 900px) {
   main section.view1 {
     flex-direction: row-reverse;
@@ -679,5 +782,61 @@ main section.view7 .started .culture p {
   }
   main section.view7 .started .culture p {
     margin-top: 0.7rem;
+  }
+  footer {
+    display: flex;
+  }
+  footer .contentfooter {
+    display: flex;
+    flex-direction: row;
+  }
+  footer .contentfooter .logo {
+    padding-top: 2rem;
+  }
+  footer .contentfooter .footerlinks {
+    padding-top: 2rem;
+    margin-left: -40rem;
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+  }
+  footer .contentfooter .footerlinks ul li {
+    font-size: 1rem;
+  }
+  footer .contentfooter .footerlinks ul li a {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  footer .socialfooter {
+    margin-left: -65rem;
+    margin-top: -3rem;
+  }
+  footer .socialfooter .icon a {
+    font-size: 1.1rem;
+  }
+  footer .line {
+    color: rgba(128, 128, 128, 0.094);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 0.01rem;
+    width: 99%;
+  }
+  footer .footertray {
+    display: flex;
+    flex-direction: row;
+  }
+  footer .footertray .except {
+    width: 75%;
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  footer .footertray .terms {
+    margin-top: 0.2rem;
+  }
+  footer .footertray .terms ul {
+    margin-right: -23rem;
+  }
+  footer .footertray .terms ul li {
+    font-size: 0.8rem;
   }
 }/*# sourceMappingURL=style.css.map */
